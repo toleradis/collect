@@ -17,7 +17,13 @@
     android:background="@android:color/white"
     android:orientation="vertical">
 
-    <include layout="@layout/toolbar" />
+    <include
+        layout="@layout/toolbar"
+        android:layout_alignEnd="@+id/buttons"
+        android:layout_alignRight="@+id/buttons"
+        android:layout_below="@+id/include"
+        android:layout_marginEnd="261dp"
+        android:layout_marginRight="261dp" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -43,7 +49,8 @@
         layout="@layout/toolbar_action_bar_shadow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar" />
+        android:layout_below="@id/toolbar"
+        android:id="@+id/include" />
 
     <LinearLayout
         android:id="@+id/buttons"

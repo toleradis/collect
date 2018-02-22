@@ -30,8 +30,8 @@
     <string name="recapture_osm">Redo OSM Tagging</string>
     <string name="capture_video">Record Video</string>
     <string name="change_language">Change Language</string>
-    <string name="change_password">ODK Password</string>
-    <string name="change_username">ODK Username</string>
+    <string name="change_password">Password</string>
+    <string name="change_username">Username</string>
     <string name="clearanswer_confirm">Remove the response to \"%s\"?</string>
     <string name="clear_answer">Remove response</string>
     <string name="clear_answer_ask">Remove This Response?</string>
@@ -60,8 +60,8 @@
     <string name="do_not_save">Ignore Changes</string>
     <string name="entering_repeat">Add Group</string>
     <string name="entering_repeat_ask">Add New Group?</string>
-    <string name="enter_data">Fill Blank Form</string>
-    <string name="enter_data_button">Fill Blank Form</string>
+    <string name="enter_data">Record New Sales</string>
+    <string name="enter_data_button">Record New Sales</string>
     <string name="error_occured">Error Occurred</string>
     <string name="error_attaching_binary_file">An error occurred while attaching the media: %s</string>
     <string name="fetching_file">Getting %1$s.\n\nForm %2$s of %3$s form(s).</string>
@@ -112,14 +112,14 @@
     <string name="refresh">Refresh</string>
     <string name="replace_barcode">Replace Barcode</string>
     <string name="required_answer_error">Sorry, this response is required!</string>
-    <string name="review_data">Edit Saved Form</string>
-    <string name="review_data_button">Edit Saved Form (%s)</string>
+    <string name="review_data">Edit Sales Record</string>
+    <string name="review_data_button">Edit Sales record (%s)</string>
     <string name="save_all_answers">Save Form</string>
     <string name="save_enter_data_description">You are at the end of %s.</string>
     <string name="saving_form">Saving Form</string>
     <string name="sending_items">Sending %1$s of %2$s form(s)</string>
-    <string name="send_data">Send Finalized Form</string>
-    <string name="send_data_button">Send Finalized Form (%s)</string>
+    <string name="send_data">Send Finalized Sales</string>
+    <string name="send_data_button">Send Finalized Sales (%s)</string>
     <string name="send_selected_data">Send Selected</string>
     <string name="view_sent_forms">View Sent Form</string>
     <string name="view_sent_forms_button">View Sent Form (%s)</string>
@@ -136,7 +136,7 @@
     <string name="client">User interface</string>
     <string name="show_splash_summary">Shows when application starts</string>
     <string name="splash_path">Selected splash image</string>
-    <string name="default_splash_path">ODK Default</string>
+    <string name="default_splash_path">Default</string>
     <string name="select_another_image">Select another image</string>
     <string name="use_odk_default">Use default image</string>
     <string name="change_splash_path">Change image</string>
@@ -170,7 +170,7 @@
     <string name="save_as_error">Saved name must not be blank!</string>
     <string name="edit_prompt">Edit Prompt</string>
     <string name="selected_google_account_text">Google account</string>
-    <string name="server_platform_odk_aggregate">ODK Aggregate</string>
+    <string name="server_platform_odk_aggregate">Aggregate</string>
     <string name="server_platform_other">Other</string>
     <string name="font_size_extra_large">Extra Large</string>
     <string name="font_size_large">Large</string>
@@ -266,7 +266,7 @@
     <string name="go_drive">My Drive</string>
     <string name="go_shared">Shared with Me</string>
     <string name="modified_on_date_at_time">\'Modified on\' EEE, MMM dd, yyyy \'at\' HH:mm</string>
-    <string name="aggregate_preferences">ODK Aggregate settings</string>
+    <string name="aggregate_preferences">Aggregate settings</string>
     <string name="other_preferences">Other platform settings</string>
     <string name="google_preferences">Google Sheets settings</string>
     <string name="google_sheets_url_hint">Forms must set a submission URL. If they don\'t, this URL will be used.</string>
@@ -276,8 +276,8 @@
     <string name="invalid_oauth">Invalid OAuth 2 token</string>
     <string name="google_repeat_error">Repeats are not supported by Google Sheets at this time.</string>
     <string name="media_upload_error">Failed to upload photo that does not exist: %1$s</string>
-    <string name="odk_auth_auth_fail">ODK auto send authentication failure, please make sure your settings are correct</string>
-    <string name="odk_auto_note">ODK Auto Send Notification</string>
+    <string name="odk_auth_auth_fail">Auto Send authentication failure, please make sure your settings are correct</string>
+    <string name="odk_auto_note">Auto Send Notification</string>
     <string name="notification_error">Error displaying notification text</string>
     <string name="delete_after_send">Delete after send</string>
     <string name="delete_after_send_summary">Deletes finalized forms and media after sending to server</string>
@@ -294,8 +294,8 @@
     <string name="username_error_whitespace">Leading or trailing whitespace not allowed in usernames</string>
     <string name="google_play_services_error_occured">Unable to access Google Maps. Is Google Play Services installed?</string>
     <string name="about_preferences">About</string>
-    <string name="tell_your_friends">Share ODK Collect with your colleagues</string>
-    <string name="tell_your_friends_msg">Download the ODK Collect app!</string>
+    <string name="tell_your_friends">Share Collect with your colleagues</string>
+    <string name="tell_your_friends_msg">Download Collect app!</string>
     <string name="leave_a_review">Leave a review on the Google Play Store</string>
     <!-- Geo string added in feature-geofeatures branch-->
     <string name="map_preferences">Mapping</string>
@@ -337,7 +337,7 @@
     <string name="polygon_or_polyline">"Save GeoTrace As"</string>
     <string name="minutes">Minutes</string>
     <string name="geo_clear_warning">Feature already created. Would you like to clear the feature?</string>
-    <string name="geo_exit_warning">Discard changes and return to ODK?</string>
+    <string name="geo_exit_warning">Discard changes and return?</string>
     <string name="polygon_validator">Must have at least 3 points to create Polygon</string>
     <string name="dialog_continue">Continue</string>
     <string name="clear">Clear</string>
@@ -358,7 +358,7 @@
     <string name="geotrace_view_change_location">View or Change GeoTrace</string>
     <string name="bearing">Bearing: %.3f</string>
     <string name="direction">Direction: %s</string>
-    <string name="select_odk_shortcut">Select ODK Shortcut</string>
+    <string name="select_odk_shortcut">Select Shortcut</string>
     <string name="bad_uri">Bad URI: %s</string>
     <string name="unrecognized_uri">Unrecognized URI: %s</string>
     <!-- &lt; and &gt; surrounds the text so it will appear as <no form loaded> -->
@@ -376,10 +376,10 @@
     <string name="gps_result">Latitude: %1$s\nLongitude: %2$s\nAltitude: %3$sm\nAccuracy: %4$sm</string>
     <string name="parser_exception">XPathParser Exception: \"%s\"</string>
     <string name="selected_answer">Selected: %s</string>
-    <string name="version_number">Version: %s</string>
-    <string name="odk_website">Visit the ODK website</string>
-    <string name="odk_website_summary">Open Data Kit (ODK) is used to collect data for social good in challenging environments.</string>
-    <string name="odk_forum">Join the ODK forum</string>
+    <string name="version_number">Version:01</string>
+    <string name="odk_website">Visit website</string>
+    <string name="odk_website_summary">MSIE Collect is used to collect real time data.</string>
+    <string name="odk_forum">Join forum</string>
     <string name="odk_forum_summary">Join the forum to get support, request features, contribute code/translations!</string>
     <string name="all_open_source_licenses">Open source libraries and licenses</string>
 
@@ -401,7 +401,7 @@
     <string name="encryption_error_message">%s Form has not been saved as finalized.</string>
     <string name="analytics_preferences">Usage data</string>
     <string name="analytics">Collect anonymous usage data</string>
-    <string name="analytics_summary">Anonymous usage data helps the ODK team prioritize fixes and features</string>
+    <string name="analytics_summary">Anonymous usage data helps the team prioritize fixes and features</string>
     <string name="select_all">Select All</string>
     <string name="clear_all">Clear All</string>
     <string name="reset_settings">All settings (internal settings, saved settings)</string>
@@ -437,7 +437,7 @@
     <string name="sort_by_status_asc">Status, finalized first</string>
     <string name="sort_by_status_desc">Status, unfinalized first</string>
     <string name="sort_the_list">Sort the list</string>
-    <string name="request_permissions_google_account">ODK Collect needs access to your Google account to get blank forms and submit filled forms.</string>
+    <string name="request_permissions_google_account">Collect needs access to your Google account to get blank forms and submit filled forms.</string>
     <string name="filter_the_list">Filter the list</string>
     <string name="language">Language</string>
     <string name="google_auth_io_exception_msg">Unable to make API calls. If you are running a local build, please review the project readme.</string>
